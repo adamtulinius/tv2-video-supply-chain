@@ -1,0 +1,10 @@
+{"id":"b385fcf5-bacf-4242-892c-3ed08799a775","title":"Det sidste ord: Peter Belli","provider":"TV 2","encodingTime":6,"publicationTimeout":7}
+{"id":"6b34f304-7425-42c6-a7cb-7ccac6362cac","title":"Nyhederne: 7 Nyhederne, 8. juli","provider":"TV 2","encodingTime":1,"publicationTimeout":3}
+{"id":"e954069a-1950-44c4-9cba-a6aff5cb917f","title":"Nyhederne: 21.30 Nyhederne, 10. juli","provider":"TV 2","encodingTime":5,"publicationTimeout":9}
+{"id":"93566388-5977-49f9-abd3-5519d2641120","title":"Nyhederne: 7 Nyhederne, 10. juli","provider":"TV 2","encodingTime":3,"publicationTimeout":4}
+{"id":"ecf5858f-29e2-4d23-a3c2-cf00a2c95365","title":"Jeg stammer stadig","provider":"TV 2","encodingTime":1,"publicationTimeout":7}
+{"id":"88110738-48b0-428f-93b1-fadf9f404940","title":"Luksushuse på bestilling (1)","provider":"TV 2","encodingTime":4,"publicationTimeout":6}
+{"id":"28dbabe2-60a9-471a-ab3e-f3ac277ff872","title":"Den lukkede boligfest","provider":"TV 2","encodingTime":2,"publicationTimeout":8}
+{"id":"bdfe67e8-6635-48c6-a609-c954b1329461","title":"Go' morgen Danmark: SoMe-afvænning gav livet tilbage","provider":"TV 2","encodingTime":6,"publicationTimeout":8}
+{"id":"438627b2-055d-4337-97c7-47de31334620","title":"Ups, vi er voksne","provider":"TV 2","encodingTime":4,"publicationTimeout":6}
+{"id":"8744b20c-e171-436b-a6d6-f6476edf406c","title":"Go' morgen Danmark: Fællesskab på bølgerne","provider":"TV 2","encodingTime":3,"publicationTimeout":8}

@@ -1,0 +1,154 @@
+{"id":"b385fcf5-bacf-4242-892c-3ed08799a775","title":"Det sidste ord: Peter Belli","provider":"TV 2","encodingTime":6,"publicationTimeout":7}
+{"id":"6b34f304-7425-42c6-a7cb-7ccac6362cac","title":"Nyhederne: 7 Nyhederne, 8. juli","provider":"TV 2","encodingTime":1,"publicationTimeout":3}
+{"id":"e954069a-1950-44c4-9cba-a6aff5cb917f","title":"Nyhederne: 21.30 Nyhederne, 10. juli","provider":"TV 2","encodingTime":5,"publicationTimeout":9}
+{"id":"93566388-5977-49f9-abd3-5519d2641120","title":"Nyhederne: 7 Nyhederne, 10. juli","provider":"TV 2","encodingTime":3,"publicationTimeout":4}
+{"id":"ecf5858f-29e2-4d23-a3c2-cf00a2c95365","title":"Jeg stammer stadig","provider":"TV 2","encodingTime":1,"publicationTimeout":7}
+{"id":"88110738-48b0-428f-93b1-fadf9f404940","title":"Luksushuse på bestilling (1)","provider":"TV 2","encodingTime":4,"publicationTimeout":6}
+{"id":"28dbabe2-60a9-471a-ab3e-f3ac277ff872","title":"Den lukkede boligfest","provider":"TV 2","encodingTime":2,"publicationTimeout":8}
+{"id":"bdfe67e8-6635-48c6-a609-c954b1329461","title":"Go' morgen Danmark: SoMe-afvænning gav livet tilbage","provider":"TV 2","encodingTime":6,"publicationTimeout":8}
+{"id":"438627b2-055d-4337-97c7-47de31334620","title":"Ups, vi er voksne","provider":"TV 2","encodingTime":4,"publicationTimeout":6}
+{"id":"8744b20c-e171-436b-a6d6-f6476edf406c","title":"Go' morgen Danmark: Fællesskab på bølgerne","provider":"TV 2","encodingTime":3,"publicationTimeout":8}
+{"id":"8cc26c23-d4ee-4ac3-9a6b-32744f7f711b","title":"Badehotellet","provider":"TV 2","encodingTime":1,"publicationTimeout":4}
+{"id":"af0bf10b-5ed1-45a3-9845-02d003ccb948","title":"Puk - Strisser på Samsø","provider":"TV 2","encodingTime":4,"publicationTimeout":6}
+{"id":"7f6b2059-31e5-4184-b9cd-a70aa732b2f1","title":"Tabu - med Rune Klan: De OCD-ramte","provider":"TV 2","encodingTime":4,"publicationTimeout":10}
+{"id":"37c9e6b1-36f0-469d-81a9-920f3fdd9ab4","title":"Agent (2)","provider":"TV 2","encodingTime":4,"publicationTimeout":5}
+{"id":"6e048205-ad91-4d05-914f-03b7da799f57","title":"Luksushuse på bestilling","provider":"TV 2","encodingTime":4,"publicationTimeout":10}
+{"id":"c0fd440e-0d6b-4292-a004-833f00e7cb8c","title":"Danmarks dejligste badehoteller","provider":"TV 2","encodingTime":6,"publicationTimeout":9}
+{"id":"a1c55c02-c8b2-4b19-bbd9-968391f7398a","title":"Mesterlige ombygninger","provider":"TV 2","encodingTime":3,"publicationTimeout":7}
+{"id":"03813b78-e948-474e-a6e3-84e1e55cbe92","title":"Go' morgen Danmark: Lauritz.com i dyb økonomisk krise","provider":"TV 2","encodingTime":6,"publicationTimeout":9}
+{"id":"3ba52818-a98b-46e7-a5a0-c90de4d77b25","title":"Go' morgen Danmark: Fire frivillige skal et år til ”Mars”","provider":"TV 2","encodingTime":2,"publicationTimeout":6}
+{"id":"985711e4-d6f5-4c8e-b29e-cb20fb803bee","title":"Hvide Sande","provider":"TV 2","encodingTime":6,"publicationTimeout":9}
+{"id":"9c6dd27c-33a0-46bb-86d2-f839f928ce50","title":"Linde på Langeland","provider":"TV 2","encodingTime":1,"publicationTimeout":7}
+{"id":"e11f1e00-184b-4a77-8f9b-537563703ce4","title":"Han er bare ikke vild med dig","provider":"TV 2","encodingTime":6,"publicationTimeout":12}
+{"id":"e90e68f9-91b3-4f9c-ab68-d4dc42a13586","title":"Station 2","provider":"TV 2","encodingTime":3,"publicationTimeout":6}
+{"id":"fc303e56-69dd-47a2-bf78-630540aaa3c9","title":"Få seneste nyt fra din region","provider":"TV 2","encodingTime":5,"publicationTimeout":9}
+{"id":"22a94e4a-ceaf-436d-94e0-9cf89e8a3536","title":"Agent: Airdrop","provider":"TV 2","encodingTime":4,"publicationTimeout":7}
+{"id":"6327d5f9-02a6-4781-9084-f6018aa5b89d","title":"Vi drukner i rod","provider":"TV 2","encodingTime":6,"publicationTimeout":10}
+{"id":"bd5bca73-4f13-4f2e-95e1-c3cc06f05a2e","title":"Palm Springs","provider":"TV 2","encodingTime":1,"publicationTimeout":5}
+{"id":"97f8a8bd-e771-4b07-90da-d63efd5d2350","title":"Nyhederne: 12 Nyhederne, 11. juli","provider":"TV 2","encodingTime":3,"publicationTimeout":5}
+{"id":"caa4699c-cb5d-4306-b5f1-e8d302972843","title":"Agent","provider":"TV 2","encodingTime":5,"publicationTimeout":6}
+{"id":"79a1bdba-4751-4c49-9686-7743cfb2f1bd","title":"Drabet på Martine: Jagten på retfærdighed","provider":"TV 2","encodingTime":3,"publicationTimeout":4}
+{"id":"426bfb33-c089-447f-8f5e-a31ca30fd9ff","title":"Mistænkeligt spil (1)","provider":"TV 2","encodingTime":6,"publicationTimeout":7}
+{"id":"8a9c0279-d34c-4a9c-8336-03611eabb247","title":"Go' morgen Danmark: Tourens uskrevne regelbog","provider":"TV 2","encodingTime":1,"publicationTimeout":3}
+{"id":"2d698e7e-9008-450b-9b80-4c3859a55d9a","title":"Et ægte par","provider":"TV 2","encodingTime":5,"publicationTimeout":9}
+{"id":"d4ddd07e-a54b-470e-88e6-b2ad8a372605","title":"The Expendables","provider":"TV 2","encodingTime":4,"publicationTimeout":6}
+{"id":"6624a815-c707-44c4-a1f1-3db6d3f33724","title":"Gordon Ramsays køkkenmareridt: Rococo","provider":"TV 2","encodingTime":3,"publicationTimeout":6}
+{"id":"68b43cb9-0f50-49c6-97c0-4170936bb0c6","title":"Go' morgen Danmark: Ansatte hos flyselskaber trues og chikaneres","provider":"TV 2","encodingTime":6,"publicationTimeout":12}
+{"id":"2d59d812-abab-4783-ba6c-db5283ea1a34","title":"Gordon, Gino og Fred på tur","provider":"TV 2","encodingTime":3,"publicationTimeout":4}
+{"id":"f18b9532-3d7e-4dfe-a454-d3701152dddb","title":"Nyhederne: 22News, 7. juli","provider":"TV 2","encodingTime":2,"publicationTimeout":7}
+{"id":"4f6d729b-8c37-4d6b-8929-c5802bdfaa33","title":"Nyhederne: 22News, 9. juli","provider":"TV 2","encodingTime":2,"publicationTimeout":3}
+{"id":"2aaed5e6-335a-4572-beae-a12c516acdb5","title":"Badehotellets Danmark","provider":"TV 2","encodingTime":3,"publicationTimeout":4}
+{"id":"80cee0ca-bc2c-4289-b0bc-b3ec3f0dce59","title":"Strisser på Læsø","provider":"TV 2","encodingTime":1,"publicationTimeout":2}
+{"id":"d2014a6c-93e7-4619-bcb2-5a4c8a539f61","title":"Dansegarderoben: Der er mange dejlige damer","provider":"TV 2","encodingTime":1,"publicationTimeout":6}
+{"id":"95c7a51c-aeaa-4562-b03d-17aaabd1e9f5","title":"Nyhederne: 19 Nyhederne, 9. juli","provider":"TV 2","encodingTime":1,"publicationTimeout":7}
+{"id":"46436b5b-c104-494e-96fc-747dc2a3c184","title":"Alarmcentralen","provider":"TV 2","encodingTime":3,"publicationTimeout":5}
+{"id":"0b3e1967-e768-412c-b4a4-1163e12a2d94","title":"Kurs mod danske kyster","provider":"TV 2","encodingTime":6,"publicationTimeout":7}
+{"id":"5b85c8e1-9037-4bd9-86fd-c9f659ce24ec","title":"Badehotellet","provider":"TV 2","encodingTime":2,"publicationTimeout":3}
+{"id":"7b8552cd-eaef-4fa9-9e88-9355697c07cc","title":"Nyhederne: 19 Nyhederne, 8. juli","provider":"TV 2","encodingTime":1,"publicationTimeout":2}
+{"id":"034bda0c-9c26-4557-b18c-1e3761286f30","title":"Nærpolitiet","provider":"TV 2","encodingTime":4,"publicationTimeout":10}
+{"id":"98f49896-ded8-48ec-80a1-924099f4f7e6","title":"Vi drukner i rod: Konstant dårlig samvittighed","provider":"TV 2","encodingTime":1,"publicationTimeout":7}
+{"id":"5f79e67d-24b4-44fe-a923-06146669b70d","title":"Vejret: 4. juli - 18.20","provider":"TV 2","encodingTime":5,"publicationTimeout":8}
+{"id":"674e7dbd-48d7-4ca8-9469-8290537c89f9","title":"A Rainy Day in New York","provider":"TV 2","encodingTime":3,"publicationTimeout":8}
+{"id":"5261da49-cd9b-4e57-9f19-46474c190cb5","title":"Til vi falder","provider":"TV 2","encodingTime":2,"publicationTimeout":4}
+{"id":"07721586-3d68-45f2-9ec4-c311ccf77c67","title":"DNA: Hepatitis","provider":"TV 2","encodingTime":5,"publicationTimeout":6}
+{"id":"44bf882b-9095-444e-b903-5ae50464d26b","title":"Indiana Jones og templets forbandelse","provider":"TV 2","encodingTime":4,"publicationTimeout":7}
+{"id":"c46721c9-e897-4314-a51f-b42e7430d3a0","title":"Dag \u0026 nat","provider":"TV 2","encodingTime":3,"publicationTimeout":7}
+{"id":"97f9feec-c65c-42c0-9ee7-f8d14d028cd1","title":"Nybyggerne","provider":"TV 2","encodingTime":6,"publicationTimeout":12}
+{"id":"c6343469-bff8-4dbb-9402-717281ae1c23","title":"Ivan - lovens lange snude","provider":"TV 2","encodingTime":6,"publicationTimeout":11}
+{"id":"ae0a8a5f-6b54-4792-9fdb-6836d3a7becf","title":"Inger og det dårlige selskab","provider":"TV 2","encodingTime":2,"publicationTimeout":3}
+{"id":"45d14dc2-ffa3-4cb0-84e9-9eacc38db362","title":"Go' morgen Danmark: Kvindelandsholdet skal til Australien","provider":"TV 2","encodingTime":3,"publicationTimeout":7}
+{"id":"c3618d8c-0c67-4719-8e65-8f305e621cd0","title":"Spionerne bag skærmen","provider":"TV 2","encodingTime":6,"publicationTimeout":12}
+{"id":"3c42c4ab-2c9c-4ac4-813a-112e8578fbd5","title":"Kriger","provider":"TV 2","encodingTime":5,"publicationTimeout":9}
+{"id":"a324785d-cb29-40c6-ae3c-eeb4a0dbae63","title":"Tour de France - Etaper","provider":"TV 2","encodingTime":1,"publicationTimeout":3}
+{"id":"000c6013-c8cb-4ca8-93b9-90ec8965617d","title":"24 timer på skadestuen: Et hævet øje","provider":"TV 2","encodingTime":2,"publicationTimeout":8}
+{"id":"761494f0-2d03-4f49-aa94-5c701dd9b4ad","title":"Jeg er stammer","provider":"TV 2","encodingTime":6,"publicationTimeout":9}
+{"id":"bb692b75-8bc8-4a88-8d55-82a368615a8b","title":"Vi drukner i rod (3)","provider":"TV 2","encodingTime":6,"publicationTimeout":12}
+{"id":"aab49194-1008-446e-9370-bbb9fc165115","title":"Mit liv som betjent","provider":"TV 2","encodingTime":3,"publicationTimeout":5}
+{"id":"16625d45-7059-4d59-b9c5-0be9709f20b1","title":"Station 2 Politirapporten","provider":"TV 2","encodingTime":5,"publicationTimeout":7}
+{"id":"ed790daa-c938-40a4-a589-bbd868f37f30","title":"Badehotellet","provider":"TV 2","encodingTime":4,"publicationTimeout":10}
+{"id":"17ae7823-4f44-4a35-a0d6-2d46707cb5cb","title":"Millionærernes fede ferier","provider":"TV 2","encodingTime":6,"publicationTimeout":11}
+{"id":"e2f51658-69bd-46f9-91cf-c6966c58e457","title":"Nyhederne: 18 Nyhederne, 11. juli","provider":"TV 2","encodingTime":1,"publicationTimeout":6}
+{"id":"4193da33-6dca-4216-b892-b4c71c135896","title":"Gordon Ramsays køkkenmareridt: Morgan's","provider":"TV 2","encodingTime":5,"publicationTimeout":6}
+{"id":"6b19eec3-8ea8-4081-8f13-29ee68279f9f","title":"Lægehelikopteren: Hjertestop","provider":"TV 2","encodingTime":3,"publicationTimeout":6}
+{"id":"777fea4c-d8bf-4ecf-9230-86704a663016","title":"Da vi troede, vi skulle dø","provider":"TV 2","encodingTime":1,"publicationTimeout":4}
+{"id":"f6308dac-2a98-4448-a82c-88ae3491b1ba","title":"Badehotellet - et kig bag kulissen","provider":"TV 2","encodingTime":2,"publicationTimeout":8}
+{"id":"9e82ebc6-6d6a-4d55-98e8-79fe4b6a032f","title":"Den sidste gentleman","provider":"TV 2","encodingTime":6,"publicationTimeout":7}
+{"id":"6f12f337-1cd8-4287-ada0-74d630487d0e","title":"Mareridtet på Sneppevej","provider":"TV 2","encodingTime":1,"publicationTimeout":7}
+{"id":"6b9a8544-89ed-4f0f-a25d-f3f7d9aace53","title":"Vejret: 11. juli - 18.20","provider":"TV 2","encodingTime":6,"publicationTimeout":7}
+{"id":"fecbff35-458e-4e92-93c5-079657cf182d","title":"Emilie Meng - et skridt nærmere opklaring?","provider":"TV 2","encodingTime":4,"publicationTimeout":9}
+{"id":"b12f765f-19a1-40dc-85ba-c8fb0aba2835","title":"Dansegarderoben","provider":"TV 2","encodingTime":2,"publicationTimeout":3}
+{"id":"e6cefdb0-b897-4b03-8661-e7264fb7eff0","title":"Rita","provider":"TV 2","encodingTime":1,"publicationTimeout":3}
+{"id":"c70b9f05-b2ee-4788-a023-7a07bd71c01f","title":"Go' morgen Danmark: Cykelstængerne tager et hvil","provider":"TV 2","encodingTime":2,"publicationTimeout":7}
+{"id":"98f2d8f3-ce48-4635-a673-29abede46d39","title":"Til salg i 100 år","provider":"TV 2","encodingTime":2,"publicationTimeout":4}
+{"id":"80a2d316-5bb0-4b1c-bc73-f3fbb142be63","title":"Hold mig fast. Før jeg forsvinder","provider":"TV 2","encodingTime":2,"publicationTimeout":3}
+{"id":"ecb75478-82ea-431e-8e01-ff4b05b34ecb","title":"Røgsløret fra tobaksindustrien","provider":"TV 2","encodingTime":3,"publicationTimeout":8}
+{"id":"4c6e893d-c40a-4df3-9d47-a0f7a000f880","title":"Go' morgen Danmark: Olivia Salo afslører bodycount ","provider":"TV 2","encodingTime":4,"publicationTimeout":8}
+{"id":"a40be76d-7fcf-4361-957b-af52f558b751","title":"Efterretningstjenesten","provider":"TV 2","encodingTime":3,"publicationTimeout":6}
+{"id":"50ffc40f-95d9-4779-9137-b7e8aa1779da","title":"Klipfiskerne: Dyr, der sidder fast i ting","provider":"TV 2","encodingTime":1,"publicationTimeout":4}
+{"id":"2fe6ab9f-653a-47ec-8d75-53534275443c","title":"Overleverne","provider":"TV 2","encodingTime":4,"publicationTimeout":9}
+{"id":"c3168baf-a7c1-44be-820e-ea3da39115db","title":"Linde på Langeland","provider":"TV 2","encodingTime":6,"publicationTimeout":8}
+{"id":"950b25ee-300e-4fd0-9487-c518d305b3cb","title":"Bag forbrydelsen","provider":"TV 2","encodingTime":6,"publicationTimeout":7}
+{"id":"18e8dd05-252d-471b-94c2-5f5813abf1b1","title":"Agent: Facial","provider":"TV 2","encodingTime":1,"publicationTimeout":4}
+{"id":"c82c66d9-4280-43b1-8c78-d03002aba25f","title":"Låst inde for livet","provider":"TV 2","encodingTime":4,"publicationTimeout":9}
+{"id":"59cf9ae2-ff4e-4165-a617-3128fa090af0","title":"Jesper længe leve","provider":"TV 2","encodingTime":2,"publicationTimeout":8}
+{"id":"2a900129-c83a-4187-bf05-880856e51ee7","title":"Stormester (5)","provider":"TV 2","encodingTime":1,"publicationTimeout":5}
+{"id":"5d6157fa-62c3-4edd-9e89-eb02b254b67a","title":"Drabet på Martine","provider":"TV 2","encodingTime":3,"publicationTimeout":9}
+{"id":"184c0fcc-503c-4e0e-a5b9-bee1d64a79d8","title":"Nyhederne: 18 Nyhederne, 8. juli","provider":"TV 2","encodingTime":4,"publicationTimeout":7}
+{"id":"7f454f65-34ab-4f4c-b1e0-5f7138a886b2","title":"Efterretningstjenesten: Angreb på udebane","provider":"TV 2","encodingTime":1,"publicationTimeout":7}
+{"id":"00b820e9-852a-4926-b4a2-fd4909f920cd","title":"Nyhederne: 19 Nyhederne, 10. juli","provider":"TV 2","encodingTime":2,"publicationTimeout":3}
+{"id":"d78475d0-27cb-431e-8cbb-b5c78c5002fa","title":"Tour de France - AftenTour","provider":"TV 2","encodingTime":6,"publicationTimeout":8}
+{"id":"0883bcbb-1db0-4551-a30c-03b4aff8d32f","title":"Tour de France - Studiet","provider":"TV 2","encodingTime":2,"publicationTimeout":3}
+{"id":"c3abb21b-ed24-4112-9456-947d11ea59d9","title":"Eks-rockeren og de løsladte fanger","provider":"TV 2","encodingTime":6,"publicationTimeout":10}
+{"id":"53bd44ea-ab9f-4bf9-9cd0-ac2511827649","title":"Margrete den Første","provider":"TV 2","encodingTime":6,"publicationTimeout":10}
+{"id":"01b8305c-b1ba-43aa-b7b5-86ef7e8e6cbc","title":"Farlige forældre","provider":"TV 2","encodingTime":2,"publicationTimeout":7}
+{"id":"f10cd5fa-b01a-4346-8a53-b5a9fbb2c4f1","title":"Jesper - Drengen i den gamle krop","provider":"TV 2","encodingTime":2,"publicationTimeout":7}
+{"id":"2f5b4bbd-f6b9-47a4-945d-dbf97f446cb4","title":"DNA","provider":"TV 2","encodingTime":1,"publicationTimeout":5}
+{"id":"8d717ab5-ed11-48b4-9b86-d0e361b72fd5","title":"Stormester: Kålmesteren","provider":"TV 2","encodingTime":1,"publicationTimeout":4}
+{"id":"ccf4ad5f-0b0a-41fc-afaf-556736dcdd7a","title":"Nyhederne: 18 Nyhederne, 10. juli","provider":"TV 2","encodingTime":4,"publicationTimeout":10}
+{"id":"88c621f1-c70e-4acc-a0de-9155f799a1bc","title":"Sprinterne får chancen på 11. etape til Moulins","provider":"TV 2","encodingTime":2,"publicationTimeout":8}
+{"id":"82a5d932-9b1a-45b0-aff6-88ae99b51dea","title":"Min autisme indefra","provider":"TV 2","encodingTime":1,"publicationTimeout":7}
+{"id":"7b137305-79b5-450e-9f60-b2c18db35966","title":"Lykke-Per","provider":"TV 2","encodingTime":2,"publicationTimeout":3}
+{"id":"67adaa2d-ccf2-4a50-af21-380f4dca3aa1","title":"Klovn","provider":"TV 2","encodingTime":6,"publicationTimeout":10}
+{"id":"8e9d512a-2866-4086-b9a3-a6b202ba1432","title":"Tour de France - Studiet: Skjelmose - fra udstødt til Tour-håb","provider":"TV 2","encodingTime":3,"publicationTimeout":7}
+{"id":"92615f3f-e525-40f0-85ed-c6e831999e85","title":"Annes nye ansigt","provider":"TV 2","encodingTime":5,"publicationTimeout":9}
+{"id":"832f12f7-4f77-4a37-9f5c-60772a4a6803","title":"Sommerdrømme","provider":"TV 2","encodingTime":3,"publicationTimeout":4}
+{"id":"0e5553d7-d8a9-47ed-9c1b-4efa77691358","title":"Mellem os","provider":"TV 2","encodingTime":1,"publicationTimeout":3}
+{"id":"7341a2c6-388b-4fd5-bf7d-abb91612ac36","title":"Vi drukner i rod: Et hjem fyldt med minder","provider":"TV 2","encodingTime":5,"publicationTimeout":6}
+{"id":"4c429951-aa69-4e85-a02e-e36c911cfa0c","title":"Silent Night","provider":"TV 2","encodingTime":2,"publicationTimeout":3}
+{"id":"4d227fc5-d09e-46dc-a215-64938d454eaa","title":"En ny chance til Larry Crowne","provider":"TV 2","encodingTime":1,"publicationTimeout":3}
+{"id":"67642c28-048a-4437-9f50-089dfb4f9f63","title":"Tour-dagen","provider":"TV 2","encodingTime":3,"publicationTimeout":5}
+{"id":"c9537b88-6efc-4ad5-97c1-8d9856ec9d3f","title":"All Inclusive","provider":"TV 2","encodingTime":4,"publicationTimeout":6}
+{"id":"365325f6-750f-4a4a-8d58-574a8b172abd","title":"Liebhaverne","provider":"TV 2","encodingTime":4,"publicationTimeout":8}
+{"id":"8d7f2240-4f59-4ad1-a37d-2c4e9314e8c1","title":"Ruths Hotel","provider":"TV 2","encodingTime":5,"publicationTimeout":6}
+{"id":"03830b72-b9f0-4db4-82de-2fdbf52175da","title":"Vejret: 10. juli - 17.55","provider":"TV 2","encodingTime":6,"publicationTimeout":7}
+{"id":"f0622b48-fc13-493f-b747-c1e6dae5ab8a","title":"En gang narkostrømer","provider":"TV 2","encodingTime":2,"publicationTimeout":8}
+{"id":"6e0ef724-4699-4c80-9c70-19ed8c19f5ce","title":"Go' morgen Danmark: Vil Sverige og Ukraine blive optaget i NATO?","provider":"TV 2","encodingTime":4,"publicationTimeout":7}
+{"id":"6ade52a5-b8fd-45ce-9c70-27363e79bc31","title":"Tabu - med Rune Klan","provider":"TV 2","encodingTime":6,"publicationTimeout":7}
+{"id":"4778eda7-e634-4327-b6cd-cad9c300fc2d","title":"Fra 1-værelses til strandvejsvilla","provider":"TV 2","encodingTime":5,"publicationTimeout":7}
+{"id":"7ac4bb50-7ddb-4c65-80a9-492a9237dc94","title":"Politi på cykelstien","provider":"TV 2","encodingTime":2,"publicationTimeout":3}
+{"id":"f1864dbd-7d51-4925-8f49-c10ec8175aa0","title":"Nyhederne: 12 Nyhederne, 10. juli","provider":"TV 2","encodingTime":3,"publicationTimeout":8}
+{"id":"1080fec1-ffe5-4e8d-9d0d-9ed3a9ca0f23","title":"Go' morgen Danmark: Slip dine børn fri i naturen","provider":"TV 2","encodingTime":6,"publicationTimeout":9}
+{"id":"9720946f-9bf5-4f91-bb05-92735f55d972","title":"Beliggenhed, beliggenhed, beliggenhed - sommerhuse","provider":"TV 2","encodingTime":4,"publicationTimeout":6}
+{"id":"94190e55-7ca0-482d-aaf5-c5b3edf7a7af","title":"Zirkus Nemo: Forrygende underholdning - del 1","provider":"TV 2","encodingTime":6,"publicationTimeout":10}
+{"id":"51f2aa08-e1d1-4595-a9f3-b7367c375693","title":"Tour de France - Højdepunkter","provider":"TV 2","encodingTime":4,"publicationTimeout":9}
+{"id":"86979fb3-8f96-4516-b6cf-0e9ddfb39f3e","title":"Hvor kragerne vender","provider":"TV 2","encodingTime":1,"publicationTimeout":5}
+{"id":"7d454c7f-1438-42b9-97a8-fbd201435d1b","title":"Nyhederne: 7 Nyhederne, 11. juli","provider":"TV 2","encodingTime":6,"publicationTimeout":9}
+{"id":"dfe73e0c-5f6b-42ac-a4cf-b5071fba4141","title":"To ens - med Ingemann","provider":"TV 2","encodingTime":1,"publicationTimeout":2}
+{"id":"62f515d5-7672-4a05-a70c-49568232d7af","title":"Nyhederne: 22News, 8. juli","provider":"TV 2","encodingTime":3,"publicationTimeout":9}
+{"id":"2fd43469-5a61-4320-9aa8-ddc8058e6052","title":"Verdens bedste Rosa","provider":"TV 2","encodingTime":1,"publicationTimeout":6}
+{"id":"51cd2e8d-93e5-416c-981d-19460370dbd9","title":"Først til verdens ende: Eventyret begynder i New York","provider":"TV 2","encodingTime":3,"publicationTimeout":9}
+{"id":"a568cc51-d196-4273-bbdf-2465451bb97b","title":"Go' morgen Danmark: Forskning var med til at redde Pernilles barn","provider":"TV 2","encodingTime":3,"publicationTimeout":9}
+{"id":"6b2ba29b-e236-40df-8f54-4f06e160ceb8","title":"Anders \u0026 Torben","provider":"TV 2","encodingTime":1,"publicationTimeout":2}
+{"id":"e5b13081-87df-44a9-9f40-0b1de42a4528","title":"Han, hun og haven","provider":"TV 2","encodingTime":3,"publicationTimeout":4}
+{"id":"328840ed-a954-49e7-8866-2b7dc4c73ef9","title":"Nyhederne: 19 Nyhederne, 11. juli","provider":"TV 2","encodingTime":2,"publicationTimeout":5}
+{"id":"db88dde1-f4dc-4c73-adc2-9f5345d6c216","title":"Beliggenhed, beliggenhed, beliggenhed","provider":"TV 2","encodingTime":3,"publicationTimeout":4}
+{"id":"8a79191f-ab02-4ea9-958d-783fde385c2e","title":"Beliggenhed, beliggenhed, beliggenhed - sommerhuse","provider":"TV 2","encodingTime":2,"publicationTimeout":8}
+{"id":"de18e049-073d-4a0d-9a1e-dcd9f3c25073","title":"Danmarks dejligste slotshoteller","provider":"TV 2","encodingTime":2,"publicationTimeout":8}
+{"id":"0d7659dc-9c07-493f-ae9d-ddf74727fe10","title":"Rolf \u0026 Ritter på Tour","provider":"TV 2","encodingTime":5,"publicationTimeout":11}
+{"id":"1aa903b9-1885-4661-b57a-7f69ec1d527d","title":"Sommerdrømme","provider":"TV 2","encodingTime":4,"publicationTimeout":10}
+{"id":"eddfd685-935e-453c-afee-310890f1811a","title":"Tabu - med Rune Klan (5)","provider":"TV 2","encodingTime":4,"publicationTimeout":10}
+{"id":"663c2e0b-921c-4e4a-87ca-a92385d6e40b","title":"Nyhederne: 7 Nyhederne, 9. juli","provider":"TV 2","encodingTime":5,"publicationTimeout":7}
+{"id":"caf5e7d0-dd6a-4191-a59c-7bfca103c3ab","title":"Mistænkeligt spil","provider":"TV 2","encodingTime":4,"publicationTimeout":7}
+{"id":"5994ad77-51ab-4741-9a9c-d8e91ea1d2a6","title":"Lyden af sommer: Mad og drikke","provider":"TV 2","encodingTime":1,"publicationTimeout":4}
+{"id":"913c2bca-fb31-4d81-b5f7-8376b1f503b7","title":"Beliggenhed, beliggenhed, beliggenhed (2)","provider":"TV 2","encodingTime":6,"publicationTimeout":9}
+{"id":"b7da45e4-5aab-470c-a0d4-038e8cda2fe4","title":"De sjældne danskere","provider":"TV 2","encodingTime":2,"publicationTimeout":8}
