@@ -25,7 +25,7 @@ Likewise it's possible to change the number of encoders to something other than 
 
 Run tests:
 
-```go test``
+```go test```
 
 
 Run tests with coverage:
@@ -96,6 +96,9 @@ Each encoder reads encoding jobs from a shared queue.
 Each encoder spawns a publisher after encoding finishes. This publisher is also running as a goroutine, and will receive the encoding job through a dedicated and temporary channel. This channel is strictly not necessary for part 1, but makes the difference to part 2a simple. 
 
 
+#### Part 2a
+
+The encoder now starts the publisher as a goroutine before simulating encoding (making the publisher start in parallel with the encoding).
 
 
 ## Other design choices

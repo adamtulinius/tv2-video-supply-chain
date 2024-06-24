@@ -47,13 +47,13 @@ func TestEncoder(t *testing.T) {
 	}
 
 	// Validate correct number of published objects
-	if len(published_objects) != 0 {
-		t.Errorf("number of published objects = %d; expected 0", len(published_objects))
+	if len(published_objects) != 1 {
+		t.Errorf("number of published objects = %d; expected 1", len(published_objects))
 	}
 
 	// Validate correct number of failed publishes
-	if len(published_objects_failed) != 1 {
-		t.Errorf("number of failed published objects = %d; expected 1", len(published_objects_failed))
+	if len(published_objects_failed) != 0 {
+		t.Errorf("number of failed published objects = %d; expected 0", len(published_objects_failed))
 	}
 
 	// Test that runtime of encoding is between ingest_object.EncodingTime and ingest_object.EncodingTime+0.1s

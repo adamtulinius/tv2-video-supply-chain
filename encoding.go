@@ -23,14 +23,6 @@ func encoder(wg *sync.WaitGroup, encoder_id int, encoding_queue chan IngestObjec
 		// Create a communication channel to the publisher
 		publishing_queue := make(chan PublishingObject, 1)
 
-		fmt.Printf("encoder %d: Encoding: id=%s title=\"%s\"\n", encoder_id, ingest_object.Id, ingest_object.Title)
-
-		// Fake a heavy encoding job
-		time.Sleep(time.Duration(ingest_object.EncodingTime) * time.Second)
-		metrics_encoded.Inc()
-		encoding_done_chan <- 1
-		log_stats()
-
 		// Create the publisher
 		fmt.Printf("encoder %d: Starting publisher: id=%s title=\"%s\"\n", encoder_id, ingest_object.Id, ingest_object.Title)
 		wg.Add(1)
@@ -38,6 +30,14 @@ func encoder(wg *sync.WaitGroup, encoder_id int, encoding_queue chan IngestObjec
 		// to keep track of what object the publisher belongs to (not strictly
 		// necessary).
 		go publisher(wg, ingest_object.Id, ingest_object.Title, publishing_queue)
+
+		fmt.Printf("encoder %d: Encoding: id=%s title=\"%s\"\n", encoder_id, ingest_object.Id, ingest_object.Title)
+
+		// Fake a heavy encoding job
+		time.Sleep(time.Duration(ingest_object.EncodingTime) * time.Second)
+		metrics_encoded.Inc()
+		encoding_done_chan <- 1
+		log_stats()
 
 		// Wrap the IngestObject in a PublishingObject so that the publisher knows
 		// when encoding started
