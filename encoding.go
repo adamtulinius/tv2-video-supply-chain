@@ -8,7 +8,7 @@ import (
 
 // An encoder reads encoding jobs from encoding_queue. A publisher is started, and the
 // encoded data is sent to the publisher over a channel.
-func encoder(wg *sync.WaitGroup, encoder_id int, encoding_queue chan IngestObject, encoding_done_chan chan int) {
+func encoder(wg *sync.WaitGroup, encoder_id int, encoding_queue chan IngestObject, encoding_done_chan chan int, publishing_queue chan PublishingObject) {
 	defer wg.Done()
 
 	fmt.Printf("encoder %d: Started\n", encoder_id)
@@ -19,17 +19,6 @@ func encoder(wg *sync.WaitGroup, encoder_id int, encoding_queue chan IngestObjec
 	for ingest_object := range encoding_queue {
 		metrics_encoders_busy.Inc()
 		encoding_started := time.Now()
-
-		// Create a communication channel to the publisher
-		publishing_queue := make(chan PublishingObject, 1)
-
-		// Create the publisher
-		fmt.Printf("encoder %d: Starting publisher: id=%s title=\"%s\"\n", encoder_id, ingest_object.Id, ingest_object.Title)
-		wg.Add(1)
-		// Passing some extra parameters just to get some consistency in log output
-		// to keep track of what object the publisher belongs to (not strictly
-		// necessary).
-		go publisher(wg, ingest_object.Id, ingest_object.Title, publishing_queue)
 
 		fmt.Printf("encoder %d: Encoding: id=%s title=\"%s\"\n", encoder_id, ingest_object.Id, ingest_object.Title)
 
@@ -46,9 +35,8 @@ func encoder(wg *sync.WaitGroup, encoder_id int, encoding_queue chan IngestObjec
 			encoding_started,
 		}
 
-		// Send the object to the queue belonging to the publisher
+		// Send the object to the publishing queue
 		publishing_queue <- publishing_object
-		close(publishing_queue)
 		log_stats()
 
 		metrics_encoders_busy.Dec()

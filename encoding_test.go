@@ -31,11 +31,12 @@ func TestEncoder(t *testing.T) {
 
 	encoding_done_chan := make(chan int, 10)
 	encoding_queue := make(chan IngestObject, 1)
+	publishing_queue := make(chan PublishingObject, 10)
 	encoding_queue <- ingest_object
 	close(encoding_queue)
 
 	time_start := time.Now()
-	encoder(&wg, 0, encoding_queue, encoding_done_chan)
+	encoder(&wg, 0, encoding_queue, encoding_done_chan, publishing_queue)
 
 	encoding_time := time.Since(time_start)
 
@@ -46,14 +47,15 @@ func TestEncoder(t *testing.T) {
 		t.Errorf("number of encoded objects = %d; expected 1", len(encoding_done_chan))
 	}
 
-	// Validate correct number of published objects
-	if len(published_objects) != 1 {
-		t.Errorf("number of published objects = %d; expected 1", len(published_objects))
-	}
+	// Validate correct number of objects sent to publishing
+	if len(publishing_queue) != 1 {
+		t.Errorf("number of encoded objects = %d; expected 1", len(publishing_queue))
+	} else {
+		publishing_object := <-publishing_queue
 
-	// Validate correct number of failed publishes
-	if len(published_objects_failed) != 0 {
-		t.Errorf("number of failed published objects = %d; expected 0", len(published_objects_failed))
+		if publishing_object.IngestObject.Id != ingest_object.Id {
+			t.Errorf("publishing object id = %s; expected %s", publishing_object.IngestObject.Id, ingest_object.Id)
+		}
 	}
 
 	// Test that runtime of encoding is between ingest_object.EncodingTime and ingest_object.EncodingTime+0.1s

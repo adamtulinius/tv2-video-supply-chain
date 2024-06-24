@@ -101,6 +101,12 @@ Each encoder spawns a publisher after encoding finishes. This publisher is also 
 The encoder now starts the publisher as a goroutine before simulating encoding (making the publisher start in parallel with the encoding).
 
 
+#### Part 2b
+
+Publishers are now started as soon as encoders make PublishingObjects available on a queue.
+Since publishers are no longer started when encoding starts, the rate of failed publications are now the same as in Part 1. I assume this was not the intention, so I will improve on this in part 2c.
+
+
 ## Other design choices
 
 Lack of error handling (e.g. encoders and publishers could catch panics and write an error message to a channel on panic, making it possible to start a new worker on errors.)
@@ -108,6 +114,8 @@ Lack of error handling (e.g. encoders and publishers could catch panics and writ
 JSON log output would have been nice, but not sure it improves readability for the purpose of the assignment.
 
 There's some double (ac)counting going on: I wanted to add prometheus metrics, but it's non-trivial to get the value of prometheus counters/gauges, and thus it's easier to just count the things needed to show in the terminal twice.
+
+The requirement that the system must terminate after processing has caused quite a few headaches, and I'm not very happy with how I solved them. To make goroutines shut down nicely, and not too early, I'm relying a lot on closing channels that e.g. the encoders are reading from. This has caused certain components to not be as decoupled as I wanted to, and certain changes have also been a bit error prone to implement. Removing that requirement would make it possible to clean up some code, and -- after all -- the assignment does specificy that the system is supposed to be a (soft, I asssume) real-time system, and not a batch processing system.
 
 
 ## Diagrams

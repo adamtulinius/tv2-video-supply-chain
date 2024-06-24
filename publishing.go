@@ -14,22 +14,37 @@ var (
 	published_objects_failed = make(chan IngestObject, 100000)
 )
 
+func publisher_manager(wg *sync.WaitGroup, publishing_queue chan PublishingObject) {
+	defer wg.Done()
+
+	// Use a dedicated WaitGroup for publishers
+	var wg_publishers sync.WaitGroup
+
+	for publishing_object := range publishing_queue {
+		wg_publishers.Add(1)
+		go publisher(&wg_publishers, publishing_object)
+	}
+
+	// Wait for all publishers to shut down
+	wg_publishers.Wait()
+}
+
 // A publisher takes an encoded object and publishes it to TV2 Play. Each publisher
 // can only publish a single object, and the process takes 2-6 seconds.
-func publisher(wg *sync.WaitGroup, id string, title string, publishing_queue chan PublishingObject) {
+func publisher(wg *sync.WaitGroup, publishing_object PublishingObject) {
 	metrics_publishers_running.Inc()
 	defer metrics_publishers_running.Dec()
 	defer wg.Done()
 
-	fmt.Printf("publisher: Publishing id=%s title=\"%s\": Starting\n", id, title)
+	ingest_object := publishing_object.IngestObject
+
+	fmt.Printf("publisher: Publishing id=%s title=\"%s\": Starting\n", ingest_object.Id, ingest_object.Title)
 
 	// Starting a publisher takes 2-6 seconds before it's ready to publish
 	startup_delay := 4*rand.Float64() + 2
 	time.Sleep(time.Duration(startup_delay * float64(time.Second)))
 
 	// Wait for the encoder to send the encoded date to the publisher
-	publishing_object := <-publishing_queue
-	ingest_object := publishing_object.IngestObject
 
 	fmt.Printf("publisher: Publishing id=%s title=\"%s\": Started (took %.2fs)\n", ingest_object.Id, ingest_object.Title, startup_delay)
 

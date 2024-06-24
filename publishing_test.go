@@ -20,11 +20,7 @@ func TestPublisherWillPublish(t *testing.T) {
 		time.Now(),
 	}
 
-	publishing_queue := make(chan PublishingObject, 1)
-	publishing_queue <- publishing_object
-	close(publishing_queue)
-
-	publisher(&wg, ingest_object.Id, ingest_object.Title, publishing_queue)
+	publisher(&wg, publishing_object)
 
 	wg.Wait()
 
@@ -65,11 +61,7 @@ func TestPublisherWillFail(t *testing.T) {
 		time.Now(),
 	}
 
-	publishing_queue := make(chan PublishingObject, 1)
-	publishing_queue <- publishing_object
-	close(publishing_queue)
-
-	publisher(&wg, ingest_object.Id, ingest_object.Title, publishing_queue)
+	publisher(&wg, publishing_object)
 
 	wg.Wait()
 
