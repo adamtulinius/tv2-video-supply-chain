@@ -1,4 +1,7 @@
-#
+# TV2 video supply chain assignment
+
+Each part of the assignment has a dedicated branch. I've split part 2 into several steps - please refer to the terminology section of this readme for details.
+
 
 ## Running it
 
@@ -107,6 +110,23 @@ Publishers are now started as soon as encoders make PublishingObjects available 
 Since publishers are no longer started when encoding starts, the rate of failed publications are now the same as in Part 1. I assume this was not the intention, so I will improve on this in part 2c.
 
 
+#### Part 2c
+
+Let's start out by answering the question about whether all video metadata objects are equal:
+
+They are not.
+
+1) Objects where the publicationTimeout is 6 seconds longer than the encodingTime _should_ always publish, even under the rules of part 1. Random jitter and bad luck might still cause them to fail, e.g. if the publisher takes the full maximum 6 seconds to start. This could be somewhat alleviated by always rounding the time taken towards 0 (to avoid timeouts that are only a few ms above the threshold), but it also feels a bit like cheating.
+
+2) Objects where the publicationTimeout is 6 seconds (maximum publisher startup time) or longer _should_ always publish using the rules of part 2a (e.g. publisher starting up at the same time as the encoder), but with similar caveats as in (1) above. One could assume that objects with publicationTimeout of 7 seconds and above would always publish using the part 2a-rules, and it would be fairly safe to do so, except that random hangs or freezes (maybe caused by swapping or high load) could delay startup of the publisher.
+
+With that knowledge it makes sense to implement pre-warmed publishers, that are ready to publish at a moments notice. If the system maintains a certain number of pre-warmed publishers it's possible to choose which objects should always use a pre-warmed publisher, and which objects can wait long enough for a new publisher to start up in case the number of pre-warmed publishers are low.
+
+Implementation: For this part the system now tries to keep 10 publishers ready in the background. This is done by spawning 10 publishers immediately at startup, that are all reading from the publishing queue. When a publisher retrieves an object to publish, it announces on a separate channel (`new_publisher_queue`) that it is now in use. Another goroutine reads from that channel, and spawns a new publisher to replace the one that is now busy publishing.
+
+Based on 4 runs publish failures are now down to 0-5 failures each time, and since I'm running out off time that will be the last optimization for now.
+
+
 ## Other design choices
 
 Lack of error handling (e.g. encoders and publishers could catch panics and write an error message to a channel on panic, making it possible to start a new worker on errors.)
@@ -120,3 +140,36 @@ The requirement that the system must terminate after processing has caused quite
 
 ## Diagrams
 
+
+
+## Statistics
+
+Each line represents different runs.
+
+```
+part 1:
+
+stats: client_parse_errors=0 client_submitted=154 encoded=154 published=54 publish_failed=100
+stats: client_parse_errors=0 client_submitted=154 encoded=154 published=66 publish_failed=88
+stats: client_parse_errors=0 client_submitted=154 encoded=154 published=61 publish_failed=93
+
+
+part 2a:
+
+stats: client_parse_errors=0 client_submitted=154 encoded=154 published=128 publish_failed=26
+stats: client_parse_errors=0 client_submitted=154 encoded=154 published=126 publish_failed=28
+stats: client_parse_errors=0 client_submitted=154 encoded=154 published=123 publish_failed=31
+
+
+part 2b:
+
+stats: client_parse_errors=0 client_submitted=154 encoded=154 published=63 publish_failed=91
+stats: client_parse_errors=0 client_submitted=154 encoded=154 published=59 publish_failed=95
+
+
+### part 2c
+
+stats: client_parse_errors=0 client_submitted=154 encoded=154 published=154 publish_failed=0
+stats: client_parse_errors=0 client_submitted=154 encoded=154 published=153 publish_failed=1
+stats: client_parse_errors=0 client_submitted=154 encoded=154 published=153 publish_failed=1
+stats: client_parse_errors=0 client_submitted=154 encoded=154 published=151 publish_failed=3

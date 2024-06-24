@@ -14,6 +14,14 @@ var (
 		6,
 		7,
 	}
+
+	ingest_object_1s_timeout = IngestObject{
+		"b385fcf5-bacf-4242-892c-3ed08799a775",
+		"Det sidste ord: Peter Belli",
+		"TV 2",
+		6,
+		1,
+	}
 )
 
 func test_reset_data() {

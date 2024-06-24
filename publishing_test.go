@@ -13,14 +13,17 @@ func TestPublisherWillPublish(t *testing.T) {
 	// setup
 
 	var wg sync.WaitGroup
-	wg.Add(1)
+	new_publisher_queue := make(chan int, 10)
+	publishing_queue := make(chan PublishingObject, 1)
 
 	publishing_object := PublishingObject{
 		ingest_object,
 		time.Now(),
 	}
+	publishing_queue <- publishing_object
 
-	publisher(&wg, publishing_object)
+	wg.Add(1)
+	publisher(&wg, publishing_queue, new_publisher_queue)
 
 	wg.Wait()
 
@@ -52,16 +55,17 @@ func TestPublisherWillFail(t *testing.T) {
 	// setup
 
 	var wg sync.WaitGroup
-	wg.Add(1)
-
-	ingest_object.PublicationTimeout = 1
+	new_publisher_queue := make(chan int, 10)
+	publishing_queue := make(chan PublishingObject, 1)
 
 	publishing_object := PublishingObject{
-		ingest_object,
+		ingest_object_1s_timeout,
 		time.Now(),
 	}
+	publishing_queue <- publishing_object
 
-	publisher(&wg, publishing_object)
+	wg.Add(1)
+	publisher(&wg, publishing_queue, new_publisher_queue)
 
 	wg.Wait()
 

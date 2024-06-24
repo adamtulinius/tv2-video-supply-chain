@@ -22,11 +22,11 @@ func TestServer(t *testing.T) {
 
 	// test validation
 
-	if len(published_objects) != 0 {
-		t.Errorf("number of published objects = %d; expected 0", len(published_objects))
+	if len(published_objects) != 1 {
+		t.Errorf("number of published objects = %d; expected 1", len(published_objects))
 	}
 
-	if len(published_objects_failed) != 1 {
-		t.Errorf("number of failed published objects = %d; expected 1", len(published_objects_failed))
+	if len(published_objects_failed) != 0 {
+		t.Errorf("number of failed published objects = %d; expected 0", len(published_objects_failed))
 	}
 }
