@@ -141,6 +141,10 @@ The requirement that the system must terminate after processing has caused quite
 ## Diagrams
 
 
+### Dataflow
+
+![Dataflow](diagrams/dataflow.jpg)
+
 
 ## Statistics
 
